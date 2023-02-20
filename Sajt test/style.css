@@ -23,7 +23,6 @@ ul li {
 ul li a {
     text-decoration: none;
     font-size: 24px;
-    font-family: Arial;
     color: #1e1e1e;
     padding: 0 20px;
     display: block;
@@ -40,10 +39,39 @@ ul li a:hover {
     background-color: white;
 }
 
-.div {
-    height: 200px;
-    width: 200px;
-    background-color: red;
-    margin: 0 auto;
+
+/* Drugi cas */
+#logo{
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    margin-bottom: 10px;
 }
-/* Prvi cas */
+p {
+    text-align: justify;
+    font-size: 18px;
+}
+h2 {
+    margin: 10px 0;
+}
+header p::first-letter {
+    font-size: 40px;
+}
+main {
+    padding-top: 20px;
+}
+figure {
+    display: block;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+figure img {
+    display: block;
+    width: 25%;
+    height: 25%;
+    margin: 5px auto;
+}
+figcaption {
+    text-align: center;
+}
