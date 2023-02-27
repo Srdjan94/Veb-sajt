@@ -75,3 +75,21 @@ figure img {
 figcaption {
     text-align: center;
 }
+
+/* treci cas */
+#pic {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#pic img {
+    width: 25%;
+    height: 25%;
+    display:inline-block;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+main {
+    padding: 10px 10px;
+}
+
